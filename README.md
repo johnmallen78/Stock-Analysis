@@ -51,7 +51,7 @@ We encountered another challenge during this process. The runtime for the data a
 
 This code allowed us to display the runtime of the data analysis for each year at the end of the process.
 
-![Original time image](/Stock-Analysis/resources/Pre_Refactoring_2017.png)
+![Original time image](/Stock-Analysis/Resources/Pre_Refactoring_2017.png)
 ![Original time image2](/Stock-Analysis/resources/Pre_Refactoring_2018.png)
 
 As we can see from the above pictures the code did not take that long to run however the concern was as the data grew with more stocks added it could become quite cumbersome to research. We decided to refactor the code and use more arrays to expedite the analysis process. After refactoring the code by creating arrays for the outputs of tickerVolumes, tickerStartingPrices, and tickerEndingPrices as well as several other improvements to the code our runtimes were improved significantly.
