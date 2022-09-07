@@ -13,7 +13,7 @@ The first stock we analyzed was the DQ trends for 2017 and 2018.
 
 We created some VBA macros that allowed us to populate the Year, Total Volume and Return for DQ in 2017 and 2018. The results were surprising.
 
-![DQ image](/johnmallen78/Stock-Analysis/resources/DQ_Analysis.png)
+![DQ_Analysis](/Stock-Analysis/Resources/DQ_Analysis.png)
 
 
 As you can see from this image, DQ did not perform well at all. Steve decided at this point that he wanted to be able to quickly compare all 12 of the stocks to determine the best performing stocks to suggest for his parent's portfolio.
