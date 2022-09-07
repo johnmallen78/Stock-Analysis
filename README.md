@@ -13,7 +13,7 @@ The first stock we analyzed was the DQ trends for 2017 and 2018.
 
 We created some VBA macros that allowed us to populate the Year, Total Volume and Return for DQ in 2017 and 2018. The results were surprising.
 
-![DQ_Analysis](/Stock-Analysis/Resources/DQ_Analysis.png)
+![DQ_Analysis](/Resources/DQ_Analysis.png)
 
 
 As you can see from this image, DQ did not perform well at all. Steve decided at this point that he wanted to be able to quickly compare all 12 of the stocks to determine the best performing stocks to suggest for his parent's portfolio.
@@ -52,19 +52,19 @@ We encountered another challenge during this process. The runtime for the data a
 
 This code allowed us to display the runtime of the data analysis for each year at the end of the process.
 
-![Original time image](/Stock-Analysis/Resources/Pre_Refactoring_2017.png)
-![Original time image2](/Stock-Analysis/resources/Pre_Refactoring_2018.png)
+![Pre_Refactoring_2017](/Resources/Pre_Refactoring_2017.png)
+![Pre_Refactoring_2017](/Resources/Pre_Refactoring_2018.png)
 
 As we can see from the above pictures the code did not take that long to run however the concern was as the data grew with more stocks added it could become quite cumbersome to research. We decided to refactor the code and use more arrays to expedite the analysis process. After refactoring the code by creating arrays for the outputs of tickerVolumes, tickerStartingPrices, and tickerEndingPrices as well as several other improvements to the code our runtimes were improved significantly.
 
-![VBA Challenge 2017](/Stock-Analysis/resources/VBA_Challenge_2017.png)
-![VBA Challenge 2018](/Stock-Analysis/resources/VBA_Challenge_2018.png)
+![VBA_Challenge_2017](/Resources/VBA_Challenge_2017.png)
+![VBA_Challenge_2018](/Resources/VBA_Challenge_2018.png)
 
 ### Analysis of Outcomes 
 In the outcome tables below, we determined that the two stocks with the highest returns for 2017 and 2018 were ENPH and RUN.
 
-![Stock Data 2017](/Stock-Analysis/resources/Stock_Data_2017.png)
-![Stock Data 2018](/Stock-Analysis/resources/Stock_Data_2017.png)
+![Stock_Data_2017](/Resources/Stock_Data_2017.png)
+![Stock_Data_2018](/Resources/Stock_Data_2018.png)
 
 You can see from the data that while DQ had a positive return in 2017 they fell off significantly in 2018.
 
